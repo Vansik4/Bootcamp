@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # URL de tu webhook Make (ya conectado a OpenAI)
-WEBHOOK_URL = "https://hook.eu2.make.com/p6wvpkqvi1us6ml79qu24c6j4sv49t44"
+WEBHOOK_URL = "https://personal-n8n.o7w632.easypanel.host/webhook/e545a04c-34d2-41ba-b68a-65920e8517db"
 
 st.set_page_config(page_title="Brilla Con Estilo", page_icon="💎", layout="wide")
 
@@ -69,3 +69,4 @@ with st.form("chat_form"):
 # Footer
 st.markdown("---")
 st.caption("Creado con 💖 por Brilla Con Estilo - Powered by Streamlit + Make")
+
